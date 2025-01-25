@@ -29,5 +29,5 @@ let customers=[
     {name:"Neutral Customer",email:"neutral.customer@hotmail.com",purchaseAmount:20}
 ]
 console.log("Customers:",customers)
-customers.push({name:"Unsatisfied Customer",email:"unsatisfied.customer@hotmail.com",purchaseAmount:5})
+customers.push({name:"Unsatisfied Customer",email:"unsatisfied.customer@hotmail.com",purchaseAmount:5});//adding customer
 console.log("New Customer List:",customers)
