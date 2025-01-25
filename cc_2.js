@@ -8,7 +8,7 @@ console.log("Updated Product List:", products)
 let scores=[85,98,67,77,52];//original test scores
 console.log("Student Scores:", scores)
 scores.splice(1,1,79);//changing 98 to 79
-console.log("New Scores:", scores)
+console.log("Updated Scores:", scores)
 let totalScores=scores.reduce((sum,scores)=>sum+scores,0);//calculating total to divide for average
-let averageScore=(totalScores/5)
+let averageScore=(totalScores/5);//calculating aaverage score
 console.log("Average Score:", averageScore)
