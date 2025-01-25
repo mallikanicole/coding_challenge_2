@@ -1,6 +1,7 @@
 let products=["bowl","plate","fork","spoon","knife"];//original product list
 console.log("Products:", products)
-products.push("mug");//adding new product
-let removed=products.pop()
+products.unshift("mug");//adding new product
+console.log("New Product List:",products)
+let removed=products.pop();//removing mug from product list
 console.log(removed)
-
+console.log("Updated Product List:", products)
