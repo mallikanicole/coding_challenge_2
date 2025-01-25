@@ -12,3 +12,12 @@ console.log("Updated Scores:", scores)
 let totalScores=scores.reduce((sum,scores)=>sum+scores,0);//calculating total to divide for average
 let averageScore=(totalScores/5);//calculating aaverage score
 console.log("Average Score:", averageScore)
+let employee={
+    name:"Employee of the Month",
+    age:25,
+    department:"marketing",
+    isActive: true
+}
+console.log("Employee Info:", employee)
+employee.department+=consulting;//changing department of employee
+console.log("Updated Employee Info:", employee)
