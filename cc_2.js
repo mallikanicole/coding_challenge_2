@@ -24,8 +24,8 @@ console.log("Updated Employee Info:", employee)
 employee.position="Manager";//added position of employee
 console.log("Final Updated Employee Info:",employee)
 let customers=[
-    {name:"Loyal Customer",email:"loyal.customer@hotmail.com",purchaseAmount:100}
-    {name:"Satisfied Customer",email:"satisfied.customer@hotmail.com",purchaseAmount:50}
+    {name:"Loyal Customer",email:"loyal.customer@hotmail.com",purchaseAmount:100},
+    {name:"Satisfied Customer",email:"satisfied.customer@hotmail.com",purchaseAmount:50},
     {name:"Neutral Customer",email:"neutral.customer@hotmail.com",purchaseAmount:20}
 ]
 console.log("Customers:",customers)
