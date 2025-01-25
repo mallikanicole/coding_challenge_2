@@ -19,8 +19,8 @@ let employee={
     isActive: true
 }
 console.log("Employee Info:", employee)
-employee.department+="consulting";//changing department of employee
+employee.department-="consulting";//changing department of employee
 console.log("Updated Employee Info:", employee)
-employee.property="Tampa Campus"
+employee.position="Manager";//added position of employee
 console.log("Final Updated Employee Info:",employee)
 
