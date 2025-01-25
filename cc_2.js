@@ -32,8 +32,11 @@ console.log("Customers:",customers)
 customers.push({name:"Unsatisfied Customer",email:"unsatisfied.customer@hotmail.com",purchaseAmount:5});//adding customer
 console.log("New Customer List:",customers)
 let order={orderId:12345,customerName:"Loyal Customer",amount:100}
+console.log("Order:",order)
 const price=5
 const taxRate=10
 const calculateTax=(price*(taxRate/100))
+console.log("Price", price)
+console.log("Tax Rate:",taxRate)
 console.log("Tax Amount for Order:",calculateTax)
 
